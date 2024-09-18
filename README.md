@@ -1,6 +1,7 @@
 # Bank_Customer_Churn_Model
 
-Learning Objective
+Learning Objective:
+
 The goal of this project is to predict whether a customer is likely to churn (leave the bank) using a machine learning approach. This model addresses various important steps, including data preprocessing, handling imbalanced data, and model optimization, as outlined below:
 
 Data Encoding:
@@ -16,11 +17,15 @@ Customer churn datasets are often imbalanced, meaning that the number of custome
 
 3(b) Random Over Sampling: Increasing the number of minority class samples by duplicating them, which helps balance the dataset but could lead to overfitting.
 
+
 Support Vector Machine (SVM) Classifier:
 An SVM is used to classify whether a customer will churn or not. This algorithm works by finding the hyperplane that best separates the churners from non-churners in the feature space. It's particularly effective for complex, high-dimensional datasets.
+
 
 Grid Search for Hyperparameter Tuning:
 To improve model performance, Grid Search is applied for hyperparameter tuning. This process systematically tests various combinations of hyperparameters (such as kernel types, C-values, and gamma) to find the optimal configuration for the SVM model. Hyperparameter tuning ensures that the model performs at its best without overfitting or underfitting.
 
-Conclusion
+
+Conclusion:
+
 By following these steps, we develop a robust model that can accurately predict customer churn. With proper data preprocessing, handling imbalance, and optimizing the SVM classifier, the model provides actionable insights to banks for retaining at-risk customers.
