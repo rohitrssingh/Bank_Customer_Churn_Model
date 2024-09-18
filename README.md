@@ -1,4 +1,5 @@
 # Bank_Customer_Churn_Model
+https://colab.research.google.com/drive/1G2OxCZKVr5HLS8Bt3u5b5EcrRMZp6a_e?usp=sharing (Google Colab)
 
 Learning Objective:
 
